@@ -7,6 +7,11 @@ export default defineConfig({
   base: "/Raghavendra-Jewelers/",
   build: {
     outDir: 'dist',
-    assetsDir: 'assets'
+    assetsDir: 'assets',
+    rollupOptions: {
+      output: {
+        manualChunks: undefined,
+      }
+    }
   }
 })
