@@ -18,7 +18,7 @@ function App() {
   return (
     <CartProvider>
       <FavoritesProvider>
-        <Router basename="/Raghavendra-Jewelers">
+        <Router>
           <div className="min-h-screen flex flex-col">
             <Navigation />
             <main className="flex-1">
